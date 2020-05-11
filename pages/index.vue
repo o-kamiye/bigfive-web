@@ -108,7 +108,7 @@
       <v-flex class="d-none">
         <v-card color="primary" dark min-height="400">
           <v-card-title>
-            How it works video
+            How it works: Changes made by Kamiye video
           </v-card-title>
         </v-card>
       </v-flex>
