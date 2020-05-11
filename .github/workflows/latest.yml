@@ -13,6 +13,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 12
-    - run: now --confirm --prod --local-config now-latest.json --token YcfsC2zICpTwI6jEwWyD179t
+    - run: now --confirm --prod --local-config now-latest.json --token YcfsC2zICpTwI6jEwWyD179t --scope o-kamiye
       env:
         ZEIT_TOKEN: ${{ secrets.ZEIT_TOKEN }}
